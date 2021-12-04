@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit';
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nft-caixa {
+    width: 340px;
+    height: auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+img {
+    width: 86%;
+    align-self: center;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+
+
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    padding-left: 20px;
+}
+
+h2:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.nft-texto {
+    color: hsl(215, 51%, 70%);
+    padding: 20px;
+}
+
+.nft-referencias {
+    width: 100%;
+    align-self: center;
+    width: 90%;
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+
+.nft-valor {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0.5px solid hsl(215, 51%, 70%);
+    width: 90%;
+    align-self: center;
+}
+
+.criador {
+    width: 90%;
+    align-self: center;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.img-criador {
+    margin: 0;
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.nft-criador {
+    margin-left: 15px;
+}
+
+span {
+    color: white;
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
